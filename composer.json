@@ -1,0 +1,24 @@
+{
+    "name": "mg-code/yii2-jquery-serialize-object",
+    "description": "Asset for jquery-serialize-object library",
+    "keywords": ["yii2", "extension", "asset", "jquery serialize object"],
+    "homepage": "https://github.com/mg-code/yii2-jquery-serialize-object",
+    "type": "yii2-extension",
+    "license": "BSD 3-Clause",
+    "authors": [
+        {
+            "name": "Maris Graudins",
+			"role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "yiisoft/yii2": "*",
+		"bower-asset/jquery-serialize-object": "2.4.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "mgcode\\jserialize\\": ""
+        }
+    }
+}
